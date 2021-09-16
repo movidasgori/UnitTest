@@ -15,7 +15,6 @@ class testGeometria(unittest.TestCase):
         print('setUpClass() -> OK')
 
     @classmethod
-
     def tearDownClass(cls):
         print('tearDownClass() -> OK')
 
@@ -95,10 +94,6 @@ class testGeometria(unittest.TestCase):
         FIG.set_figuraName(4)
         RES = View()
         RES.select(FIG)
-
-
-
-
 
 
     def tearDown(self):
