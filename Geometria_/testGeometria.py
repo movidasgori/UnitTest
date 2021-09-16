@@ -1,13 +1,10 @@
 import unittest
 
-from main import g
+
 import model.Geometria as G
 from view.View import View
 
 class testGeometria(unittest.TestCase):
-
-
-
 
 
     @classmethod
